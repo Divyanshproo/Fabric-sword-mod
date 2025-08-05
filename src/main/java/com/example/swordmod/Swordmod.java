@@ -7,7 +7,8 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.Registries;
 
 public class SwordMod implements ModInitializer {
 
@@ -22,6 +23,7 @@ public class SwordMod implements ModInitializer {
     @Override
     public void onInitialize() {
         // Register the sword
-        Registry.register(Registry.ITEM, new Identifier("swordmod", "custom_sword"), CUSTOM_SWORD);
+        Registry.register(Registries.ITEM, new Identifier("swordmod", "custom_sword"), CUSTOM_SWORD);
     }
+
 }
