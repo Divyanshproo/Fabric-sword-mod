@@ -14,7 +14,7 @@
   "environment": "*",
   "entrypoints": {
   "main": [
-    "swordmod.SwordMod"
+    "com.example.swordmod.SwordMod"
   ],
   "client": [
     "swordmod.SwordModClient"
