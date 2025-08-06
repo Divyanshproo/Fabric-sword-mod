@@ -13,11 +13,8 @@
   "icon": "assets/swordmod/icon.png",
   "environment": "*",
   "entrypoints": {
-  "main": [
-    "com.example.swordmod.SwordMod"
-  ],
-  "client": [
-    "swordmod.SwordModClient"
+    "main": [
+      "com.example.swordmod.SwordMod"
     ]
   },
   "depends": {
