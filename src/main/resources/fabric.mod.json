@@ -10,7 +10,7 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/swordmod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -20,9 +20,6 @@
       "com.example.ExampleModClient"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.14.22",
     "fabric": "*",
